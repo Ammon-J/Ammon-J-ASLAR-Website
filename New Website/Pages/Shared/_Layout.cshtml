@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/New_Website.styles.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #0b5ab5">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #0b5ab5; margin-bottom: 0% !important">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="/Logo/aslar logistics-clear.png" alt="" height="60"></a>
                 <button class="navbar-toggler" style="background-color: azure" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -29,13 +33,26 @@
         </nav>
 
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer">
+    @{
+        if (ViewData["Title"] != null) {
+                    <div class="container" style="max-width: 100% !important; padding: 0% !important;">
+                        <main role="main" style="margin: 0%; width:100%" class="pb-3">
+                            @RenderBody()
+                        </main>
+                    </div>
+        }
+
+        else {
+                    <div class="container">
+                        <main role="main" class="pb-3">
+                            @RenderBody()
+                        </main>
+                    </div>
+        }
+    }
+
+    <footer class="border-top footer" style="margin-bottom: 5em">
         <div class="container" style="text-align:center">
             <br />
             <br />
