@@ -6,7 +6,32 @@
 
 <link rel="stylesheet" href="/css/Homepage.css" />
 
-<div class="text-center">
+@*<div class="text-center">
     <h1 class="display-4">Welcome</h1>
+</div>*@
 
+<div data-jarallax data-parallax="scroll" class="jarallax">
+
+    <img class="jarallax-img" src="/Photos/bugatti-chiron.jpg" alt="">
 </div>
+
+<div data-jarallax data-parallax="scroll" class="jarallax">
+
+    <img class="jarallax-img" src="/Photos/audi-r8.jpg" alt="">
+</div>
+
+<div data-jarallax data-parallax="scroll" class="jarallax">
+
+    <img class="jarallax-img" src="/Photos/bugatti-divo.jpg" alt="">
+</div>
+
+<script src="https://unpkg.com/jarallax@1/dist/jarallax.min.js"></script>
+<script>
+    jarallax(document.querySelectorAll('.jarallax'), {
+        onScroll: function (calculations) {
+            console.log(calculations);
+        }
+    });
+
+    console.log(jarallax(document.querySelectorAll('.jarallax'), 'isVisible'));
+</script>
