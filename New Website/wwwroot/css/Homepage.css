@@ -10,7 +10,7 @@
 .jarallax {
     position: relative;
     z-index: 0;
-    height: 900px;
+    height: 100em;
 }
 
 .jarallax > .jarallax-img {
