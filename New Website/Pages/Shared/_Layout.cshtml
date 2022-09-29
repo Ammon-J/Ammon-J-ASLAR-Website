@@ -36,30 +36,39 @@
 
     @{
         if (ViewData["Title"] != null) {
-                    <div class="container" style="max-width: 100% !important; padding: 0% !important;">
-                        <main role="main" style="margin: 0%; width:100%" class="pb-3">
-                            @RenderBody()
-                        </main>
-                    </div>
+            <div class="container" style="max-width: 100% !important; padding: 0% !important;">
+                <main role="main" style="margin: 0%; width:100%" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+
+            <footer class="footer" style="margin-bottom: 3em">
+                <div class="container" style="text-align:center">
+                    <br />
+                    <br />
+                    <a class="btn btn-primary" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
+                   role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
+                </div>
+            </footer>
         }
 
         else {
-                    <div class="container">
-                        <main role="main" class="pb-3">
-                            @RenderBody()
-                        </main>
-                    </div>
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+
+            <footer class="border-top footer" style="margin-bottom: 5em">
+                <div class="container" style="text-align:center">
+                    <br />
+                    <br />
+                    <a class="btn btn-primary" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
+                        role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
+                </div>
+            </footer>
         }
     }
-
-    <footer class="border-top footer" style="margin-bottom: 5em">
-        <div class="container" style="text-align:center">
-            <br />
-            <br />
-            <a class="btn btn-primary" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
-               role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
-        </div>
-    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
