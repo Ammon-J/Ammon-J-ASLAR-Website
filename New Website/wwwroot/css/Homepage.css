@@ -39,6 +39,7 @@
     float: left;
     font-size: 4em;
     font-weight: 100;
+    color: black;
 }
 
 .main-video {
@@ -63,6 +64,7 @@
         margin-right: 10%;
         margin-left: 5%;
         font-size: 1.2em;
+        color: black;
     }
 
     .second-page-image-right-top {
@@ -77,7 +79,6 @@
         margin-right: 10%;
         margin-left: 5%;
         font-size: 1.2em;
-        color: black;
         float: left;
     }
 
