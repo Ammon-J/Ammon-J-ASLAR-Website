@@ -50,7 +50,7 @@
     height: auto;
 }
 /*For desktop*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
     .first-page-image-left {
         margin-top: 13.5%;
         margin-left: 6%;
