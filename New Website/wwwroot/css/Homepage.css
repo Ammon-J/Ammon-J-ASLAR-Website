@@ -27,7 +27,7 @@
 
 
 .img-divider {
-    height: 600px;
+    height: 500px;
     opacity: 2.5;
 }
 
@@ -50,50 +50,64 @@
     height: auto;
 }
 /*For desktop*/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
     .first-page-image-left {
         margin-top: 13.5%;
         margin-left: 6%;
+        float: left;
+        max-width: 40%;
+        height: auto;
     }
 
     .first-page-content-right {
         text-align: center;
         width: 35%;
-        float: right;
         margin-top: 19%;
         margin-right: 10%;
-        margin-left: 5%;
-        font-size: 1.2em;
-        color: black;
+        margin-left: 55%;
+        font-size: 1.2vw;
+        color: dimgrey;
+        display: block;
+        max-width: auto;
+        max-height: 10%;
     }
 
     .second-page-image-right-top {
         margin-top: 15%;
-        margin-left: 12%;
+        margin-left: 5%;
+        max-width: 40%;
+        height: auto;
     }
 
     .second-page-content-left-top {
         text-align: center;
         width: 35%;
-        margin-top: 21%;
+        margin-top: 19%;
         margin-right: 10%;
         margin-left: 5%;
-        font-size: 1.2em;
+        font-size: 1.2vw;
         float: left;
+        display: block;
+        max-width: auto;
+        max-height: 10%;
     }
 
     .second-page-image-left-bottom {
         margin-top: 13.5%;
         margin-left: 6%;
+        max-width: 40%;
+        height: auto;
     }
 
     .second-page-content-right-bottom {
         text-align: center;
         width: 35%;
         float: right;
-        margin-top: 21%;
+        margin-top: 19%;
         margin-right: 10%;
         margin-left: 5%;
-        font-size: 1.2em;
+        font-size: 1.2vw;
+        max-width: 40%;
+        height: auto;
     }
 }
