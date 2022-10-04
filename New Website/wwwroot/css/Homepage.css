@@ -76,7 +76,7 @@
         margin-top: 15%;
         margin-left: 5%;
         max-width: 40%;
-        height: auto;
+        height: auto
     }
 
     .second-page-content-left-top {
@@ -87,7 +87,6 @@
         margin-left: 5%;
         font-size: 1.2vw;
         float: left;
-        display: block;
         max-width: auto;
         max-height: 10%;
     }
