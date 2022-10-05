@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Photos\" />
+    <Compile Remove="wwwroot\Photos\**" />
+    <Content Remove="wwwroot\Photos\**" />
+    <EmbeddedResource Remove="wwwroot\Photos\**" />
+    <None Remove="wwwroot\Photos\**" />
   </ItemGroup>
 
 </Project>
