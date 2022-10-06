@@ -26,7 +26,7 @@
 }
 
 .main-header {
-    margin-top: 4%;
+    margin-top: 2em;
     margin-bottom: 4%;
     width: 100%;
     text-align: center;
@@ -111,7 +111,7 @@
     }
 }
 
-/*For moblie*/
+/*For mobile*/
 @media only screen and (max-width: 999px) {
     .jarallax {
         position: relative;
