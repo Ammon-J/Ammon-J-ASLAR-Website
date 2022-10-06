@@ -53,3 +53,93 @@ body {
     }
 }
 
+/*For tablets*/
+@media only screen and (max-width: 1399px) {
+    .contact {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 5%;
+    }
+
+    #appy-button {
+        float:left;
+        margin-left: 13%;
+    }
+
+    .email-footer {
+        float: left;
+        text-align: center;
+        background: url(/Icons/email-icon.png) no-repeat left center;
+        width: 18em;
+    }
+
+    .phone-footer {
+        float: right;
+        margin-left: 15%;
+        background: url(/Icons/phone-icon.png) no-repeat left center;
+        width: 10em;
+    }
+}
+
+/*For mobile*/
+@media only screen and (max-width: 992px) {
+    /*.contact {
+        width: 70%;
+        height: fit-content;
+        margin-bottom: 5%;
+    }*/
+
+    #appy-button {
+        margin-top: 30%;
+        margin-left: 28vw;
+        margin-bottom: 5%;
+        width: 40% !important;
+    }
+
+    .email-footer {
+        text-align: center;
+        background: url(/Icons/email-icon.png) no-repeat left center;
+        width: 18em;
+        position: absolute;
+        height: auto;
+        margin-left: 26vw;
+    }
+
+    .phone-footer {
+        background: url(/Icons/phone-icon.png) no-repeat left center;
+        width: 10em;
+        position: absolute;
+        height: auto;
+        margin-top: 15%;
+        margin-left: 26vw;
+    }
+}
+
+/*For small mobile*/
+@media only screen and (max-width: 359px) {
+
+    #appy-button {
+        margin-top: 30%;
+        margin-left: 30vw;
+        margin-bottom: 10%;
+        width: 40% !important;
+    }
+
+    .email-footer {
+        text-align: center;
+        background: url(/Icons/email-icon.png) no-repeat left center;
+        width: 18em;
+        position: absolute;
+        height: auto;
+        margin-left: 10vw;
+    }
+
+    .phone-footer {
+        background: url(/Icons/phone-icon.png) no-repeat left center;
+        width: 10em;
+        position: absolute;
+        height: auto;
+        margin-top: 15%;
+        margin-left: 10vw;
+    }
+}
