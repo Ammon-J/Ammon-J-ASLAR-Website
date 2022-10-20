@@ -116,7 +116,7 @@
     .jarallax {
         position: relative;
         z-index: 0;
-        height: 150vh;
+        height: 165vh;
     }
 
     .first-page-image-left {
@@ -185,4 +185,83 @@
         max-width: 80%;
         height: auto;
     }
+}
+
+/*For Samsung Galaxy Z Fold (Big Screen Open)*/
+@media only screen and (max-width: 720px) {
+    @media only screen and (min-width: 700px) {
+        .jarallax {
+            position: relative;
+            z-index: 0;
+            height: 300vh;
+        }
+
+        .first-page-image-left {
+            margin-top: 40%;
+            margin-bottom: 10%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;
+            height: auto;
+        }
+
+        .first-page-content-right {
+            text-align: center;
+            margin-left: 55%;
+            color: dimgrey;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;
+            height: auto;
+        }
+
+        .format-spacer {
+            float: left;
+            width: 100%;
+            display: block;
+            margin-bottom: 10%
+        }
+
+        .second-page-image-right-top {
+            margin-bottom: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            max-width: 80%;
+            height: auto;
+        }
+
+        .second-page-content-left-top {
+            text-align: center;
+            margin-left: 55%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;
+            height: auto;
+        }
+
+        .second-page-image-left-bottom {
+            margin-top: 15%;
+            margin-bottom: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            max-width: 80%;
+            height: auto;
+        }
+
+        .second-page-content-right-bottom {
+            text-align: center;
+            margin-left: 55%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;
+            height: auto;
+        }
+    }
+
 }
