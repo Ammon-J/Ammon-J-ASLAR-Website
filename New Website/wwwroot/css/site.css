@@ -15,14 +15,32 @@ html {
   min-height: 100%;
 }
 
+.mainbody {
+/*    background-image: url('/Logo/ASLAR Logo.jpg'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%;*/
+}
+
 body {
     margin-bottom: 60px;
-    margin-left: 0%;
     font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    margin: 0%;
+    background-image: url('/Logo/AmazonPackage.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    backdrop-filter: blur(10px);
 }
 
 .nav-item {
     font-size: large;
+}
+
+footer {
+    background-color:burlywood;
+    height: 100%;
 }
 
 /*For desktop*/
