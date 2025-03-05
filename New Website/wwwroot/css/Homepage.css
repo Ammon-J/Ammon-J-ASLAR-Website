@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(6px);
 }
 
 .nav-item {
@@ -30,6 +30,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20vh;
     max-width: 80%;
     height: auto;
     border-radius: 15px;
@@ -40,16 +41,53 @@ body {
     .container-1 {
         background-color: rgb(0, 0, 0);
         background-color: rgba(0,0,0, 0.45);
-        height: 20vh;
+        height: auto;
         width: 100%;
         color: azure;
         display: block;
     }
 
     .container-1-header {
+        padding-top: 0.5em;
         font-weight: 100;
         text-align: center;
         font-size: 2em;
+    }
+
+    .requirements-container-left {
+        align-content: center;
+        font-weight: 100;
+        width: 25vw;
+        height: auto;
+        padding-bottom: 0.5em;
+        margin-left: 8vw;
+        border: 1px solid azure;
+        border-radius: 5px;
+        display:inline-block;
+    }
+
+    .requirements-header-left {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .requirements-container-right {
+        align-content: center;
+        font-weight: 100;
+        width: 25vw;
+        height: auto;
+        padding-bottom: 0.5em;
+        margin-left: 4vw;
+        border: 1px solid azure;
+        border-radius: 5px;
+        display: inline-block;
+        margin-left: 32vw;
+        padding-top: 3vh;
+    }
+
+    .requirements-header-right {
+        text-align: center;
+        font-size: 1.5em;
     }
 }
 
