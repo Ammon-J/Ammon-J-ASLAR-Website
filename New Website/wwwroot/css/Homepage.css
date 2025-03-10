@@ -8,7 +8,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    backdrop-filter:blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.main-body {
+    z-index: 9;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.30);
+    height: 100%;
+    width: 100%;
 }
 
 .nav-item {
@@ -38,13 +46,30 @@ body {
 
 /*For desktop*/
 @media only screen and (min-width: 1000px) {
-    .container-1 {
+    .container1 {
+        width: 100%;
+        height: auto;
+        align-content: center;
+        margin-top: 35vh;
+        margin-bottom: 30vh;
+    }
+
+    .paragraph1 {
+        color: azure;
+        text-align: center;
+        width: 50vw;
+        font-size: 1.6em;
+        margin-left: 24.5vw;
+    }
+    .container-2 {
         background-color: rgb(0, 0, 0);
         background-color: rgba(0,0,0, 0.45);
         height: auto;
         width: 100%;
         color: azure;
         display: block;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
     }
 
     .container-1-header {
@@ -85,6 +110,15 @@ body {
     .requirements-header-right {
         text-align: center;
         font-size: 1.5em;
+    }
+
+    .image-josh {
+        /*height: 30vh;*/
+        margin-left: 30%;
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
     }
 }
 
