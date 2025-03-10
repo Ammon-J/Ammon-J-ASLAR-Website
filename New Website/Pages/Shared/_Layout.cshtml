@@ -40,45 +40,47 @@
 
     </header>
 
-    @{
-        if (ViewData["Title"] == "ASLAR Logistics") {
-            <div class="container" style="max-width: 100% !important; padding: 0% !important;">
-                <main role="main" style="margin: 0%; width:100%" class="pb-3">
-                    @RenderBody()
-                </main>
-            </div>
-
-            <footer class="footer" style="margin-bottom: 3em">
-                @*<div class="container" style="text-align:center">*@
-                    <br />
-                    <p class="email-footer" style="color: azure">recruiting@aslarlogistics.com</p>
-                    <a class="btn btn-primary" id="appy-button" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
-                    role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
-                    <p class="phone-footer" style="color: azure">253-219-1072</p>
-                @*</div>*@
-            </footer>
-        }
-
-        else {
-            <div class="mainbody">
-                <div class="container">
-                    <main role="main" class="pb-3">
+    <div class="main-body">
+        @{
+            if (ViewData["Title"] == "ASLAR Logistics") {
+                <div class="container" style="max-width: 100% !important; padding: 0% !important;">
+                    <main role="main" style="margin: 0%; width:100%" class="pb-3">
                         @RenderBody()
                     </main>
                 </div>
 
-                <footer class="footer" style="margin-bottom: 3em" >
-                    <div class="container" style="text-align:center">
+                <footer class="footer" style="margin-bottom: 3em">
+                    @*<div class="container" style="text-align:center">*@
                         <br />
-                        <p class="email-footer" style="color: black">recruiting@aslarlogistics.com</p>
+                        <p class="email-footer" style="color: azure">recruiting@aslarlogistics.com</p>
                         <a class="btn btn-primary" id="appy-button" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
-                       role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
-                        <p class="phone-footer" style="color: black">253-219-1072</p>
-                    </div>
+                        role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
+                        <p class="phone-footer" style="color: azure">253-219-1072</p>
+                    @*</div>*@
                 </footer>
-            </div>
+            }
+
+            else {
+                <div class="mainbody">
+                    <div class="container">
+                        <main role="main" class="pb-3">
+                            @RenderBody()
+                        </main>
+                    </div>
+
+                    <footer class="footer" style="margin-bottom: 3em" >
+                        <div class="container" style="text-align:center">
+                            <br />
+                            <p class="email-footer" style="color: black">recruiting@aslarlogistics.com</p>
+                            <a class="btn btn-primary" id="appy-button" href="https://www.indeed.com/cmp/Aslar-Logistics/jobs"
+                           role="button" target="_blank" style="width:20%; height:15%">Apply Now</a>
+                            <p class="phone-footer" style="color: black">253-219-1072</p>
+                        </div>
+                    </footer>
+                </div>
+            }
         }
-    }
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
