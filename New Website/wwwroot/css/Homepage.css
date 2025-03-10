@@ -17,6 +17,7 @@ body {
     background-color: rgba(0,0,0, 0.30);
     height: 100%;
     width: 100%;
+    margin: 0px;
 }
 
 .nav-item {
@@ -34,18 +35,20 @@ body {
     color: azure;
 }
 
-.main-video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20vh;
-    max-width: 80%;
-    height: auto;
-    border-radius: 15px;
-}
 
 /*For desktop*/
 @media only screen and (min-width: 1000px) {
+    .main-video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        max-width: 80%;
+        height: auto;
+        border-radius: 15px;
+    }
+
     .container1 {
         width: 100%;
         height: auto;
@@ -111,15 +114,6 @@ body {
         text-align: center;
         font-size: 1.5em;
     }
-
-    .image-josh {
-        /*height: 30vh;*/
-        margin-left: 30%;
-        vertical-align: middle;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
 }
 
 /*For mobile*/
@@ -129,7 +123,7 @@ body {
         
     }
 
-    /*For mobile phones that have tall and  displays*/
+    /*For mobile phones that have tall and wide displays*/
     @media only screen and (max-height: 916px) {
         @media only screen and (min-height: 840px) {
             
