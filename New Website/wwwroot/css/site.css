@@ -30,6 +30,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     backdrop-filter: blur(5px);
+}
 
 .main-body {
     z-index: 9;
@@ -45,8 +46,7 @@ body {
 }
 
 footer {
-    /*background-color:burlywood;*/
-    height: 100%;
+    margin-top: 100vh;
 }
 
 /*For desktop*/
@@ -95,7 +95,7 @@ footer {
 
 /*For mobile*/
 @media only screen and (max-width: 992px) {
-    #appy-button {
+    #apply-button {
         margin-top: 30%;
         margin-left: 28vw;
         margin-bottom: 5%;
@@ -124,7 +124,7 @@ footer {
 /*For Samsung Galaxy Z Fold (Big Screen Open)*/
 @media only screen and (max-width: 720px) {
     @media only screen and (min-width: 700px) {
-        #appy-button {
+        #apply-button {
             margin-top: 30%;
             margin-left: 22vw;
             margin-bottom: 10%;
@@ -154,7 +154,7 @@ footer {
 /*For small mobile*/
 @media only screen and (max-width: 359px) {
 
-    #appy-button {
+    #apply-button {
         margin-top: 30%;
         margin-left: 30vw;
         margin-bottom: 10%;
