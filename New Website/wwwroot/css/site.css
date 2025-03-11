@@ -45,8 +45,10 @@ body {
     font-size: large;
 }
 
-footer {
-    
+.main-footer {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.7);
+    color: azure;
 }
 
 /*For desktop*/
