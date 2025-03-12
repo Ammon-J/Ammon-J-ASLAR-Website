@@ -8,8 +8,6 @@ body {
     font-size: large;
 }
 
-
-
 /*For desktop*/
 @media only screen and (min-width: 1000px) {
     .main-header {
@@ -130,36 +128,114 @@ body {
 
 /*For mobile*/
 @media only screen and (max-width: 999px) {
-    /*For mobile phones in landscape view*/
-    @media only screen and (min-width: 600px)  {
-        
+    .main-header {
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+        width: 99.9%;
+        text-align: center;
+        float: left;
+        font-size: 7vw;
+        font-weight: 100;
+        color: azure;
     }
 
-    /*For mobile phones that have tall and wide displays*/
-    @media only screen and (max-height: 916px) {
-        @media only screen and (min-height: 840px) {
-            
-        }
+    .container1 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20vh;
     }
 
-    /*For mobile phones that have taller displays*/
-    @media only screen and (max-height: 741px) {
-        @media only screen and (min-height: 652px) {
-
-        }
+    .paragraph1 {
+        color: azure;
+        text-align: center;
+        width: 78%;
+        font-size: 1.2em;
+        margin-left: 12vw;
     }
 
-    /*For mobile phones that have taller displays*/
-    @media only screen and (max-width: 415px) {
-        @media only screen and (min-width: 300px) {
-
-        }
-    }
-}
-
-/*For Samsung Galaxy Z Fold (Big Screen Open)*/
-@media only screen and (max-width: 720px) {
-    @media only screen and (min-width: 700px) {
+    .container-2 {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.55);
+        height: auto;
+        width: 100%;
+        color: azure;
+        display: block;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
     }
 
+    .container-2-header {
+        padding-top: 0.5em;
+        margin-bottom: 5vh;
+        font-weight: 100;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .requirements-container-left {
+        font-weight: 100;
+        font-size: 1.1em;
+        width: 90%;
+        height: auto;
+        padding-bottom: 10vh;
+        margin-left: 8vw;
+        display: block;
+    }
+
+    .requirements-header-left {
+        font-size: 1.5em;
+    }
+
+    .requirements-container-right {
+        align-content: center;
+        font-weight: 100;
+        font-size: 1.1em;
+        width: 90%; /*Make width 90% because of styling*/
+        height: auto;
+        padding-bottom: 0.5em;
+        margin-left: 8vw;
+        padding-top: 3vh;
+    }
+
+    .requirements-header-right {
+        font-size: 1.5em;
+    }
+
+    .main-video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        width: 80vw;
+        max-width: 90%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .container-3 {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.4);
+        height: auto;
+        width: 100%;
+        color: azure;
+        display: block;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+
+    .container-3-header {
+        padding-top: 0.5em;
+        font-weight: 100;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .container-3-btn {
+        margin-top: 8vh;
+        margin-bottom: 4vh;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
 }
