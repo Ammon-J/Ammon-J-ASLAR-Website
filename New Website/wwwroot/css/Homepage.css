@@ -44,7 +44,7 @@ body {
         color: azure;
         text-align: center;
         width: 50vw;
-        font-size: 1.6em;
+        font-size: 1.5em;
         margin-left: 24.5vw;
     }
 
@@ -63,12 +63,13 @@ body {
         padding-top: 0.5em;
         font-weight: 100;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
 
     .requirements-container-left {
         align-content: center;
         font-weight: 100;
+        font-size: 1.1em;
         width: 25vw;
         height: auto;
         padding-bottom: 0.5em;
@@ -84,6 +85,7 @@ body {
     .requirements-container-right {
         align-content: center;
         font-weight: 100;
+        font-size: 1.1em;
         width: 25vw;
         height: auto;
         padding-bottom: 0.5em;
@@ -91,7 +93,6 @@ body {
         display: inline-block;
         margin-left: 32vw;
         padding-top: 3vh;
-
     }
 
     .requirements-header-right {
