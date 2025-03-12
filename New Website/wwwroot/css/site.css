@@ -54,131 +54,55 @@ body {
 
 /*For desktop*/
 @media only screen and (min-width: 1400px) {
-    #appy-button {
-        float:left;
-        margin-left: 18%;
-    }
-
-    .email-footer {
-        float: left;
-        text-align: center;
-        background: url(/Icons/email-icon.png) no-repeat left center;
-        width: 18em;
-    }
-
-    .phone-footer {
-        float: right;
-        margin-left: 22%;
-        background: url(/Icons/phone-icon.png) no-repeat left center;
-        width: 10em;
-    }
+    /*body {
+        background-image: url('/Logo/AmazonPackage.JPG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        backdrop-filter: blur(5px);
+    }*/
 }
 
 /*For tablets*/
 @media only screen and (max-width: 1399px) {
-    #appy-button {
-        float:left;
-        margin-left: 13%;
-    }
-
-    .email-footer {
-        float: left;
-        text-align: center;
-        background: url(/Icons/email-icon.png) no-repeat left center;
-        width: 18em;
-    }
-
-    .phone-footer {
-        float: right;
-        margin-left: 15%;
-        background: url(/Icons/phone-icon.png) no-repeat left center;
-        width: 10em;
+    body {
+        background-image: url('/Logo/AmazonPackageTablet.JPG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        backdrop-filter: blur(5px);
     }
 }
 
 /*For mobile*/
 @media only screen and (max-width: 992px) {
-    #apply-button {
-        margin-top: 30%;
-        margin-left: 28vw;
-        margin-bottom: 5%;
-        width: 40% !important;
-    }
-
-    .email-footer {
-        text-align: center;
-        background: url(/Icons/email-icon.png) no-repeat left center;
-        width: 18em;
-        position: absolute;
-        height: auto;
-        margin-left: 26vw;
-    }
-
-    .phone-footer {
-        background: url(/Icons/phone-icon.png) no-repeat left center;
-        width: 10em;
-        position: absolute;
-        height: auto;
-        margin-top: 15%;
-        margin-left: 26vw;
+    body {
+        background-image: url('/Logo/AmazonPackageMoble.JPG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        backdrop-filter: blur(5px);
     }
 }
 
 /*For Samsung Galaxy Z Fold (Big Screen Open)*/
 @media only screen and (max-width: 720px) {
     @media only screen and (min-width: 700px) {
-        #apply-button {
-            margin-top: 30%;
-            margin-left: 22vw;
-            margin-bottom: 10%;
-            width: 40% !important;
-        }
-
-        .email-footer {
-            text-align: center;
-            background: url(/Icons/email-icon.png) no-repeat left center;
-            width: 18em;
-            position: absolute;
-            height: auto;
-            margin-left: 22vw;
-        }
-
-        .phone-footer {
-            background: url(/Icons/phone-icon.png) no-repeat left center;
-            width: 10em;
-            position: absolute;
-            height: auto;
-            margin-top: 10%;
-            margin-left: 22vw;
-        }
+        
     }
 }
 
 /*For small mobile*/
 @media only screen and (max-width: 359px) {
-
-    #apply-button {
-        margin-top: 30%;
-        margin-left: 30vw;
-        margin-bottom: 10%;
-        width: 40% !important;
-    }
-
-    .email-footer {
-        text-align: center;
-        background: url(/Icons/email-icon.png) no-repeat left center;
-        width: 18em;
-        position: absolute;
-        height: auto;
-        margin-left: 10vw;
-    }
-
-    .phone-footer {
-        background: url(/Icons/phone-icon.png) no-repeat left center;
-        width: 10em;
-        position: absolute;
-        height: auto;
-        margin-top: 15%;
-        margin-left: 10vw;
+    body {
+        background-image: url('/Logo/AmazonPackageMoble.JPG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        backdrop-filter: blur(5px);
     }
 }
