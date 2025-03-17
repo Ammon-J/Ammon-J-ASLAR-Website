@@ -3,89 +3,57 @@
 @{
     ViewData["Title"] = "About";
 }
-
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link rel="stylesheet" href="~/css/About.css" />
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <div data-aos="fade-right" data-aos-duration="300">
         <h1 class="main-header">About</h1>
 </div>
-<div class="slideshow-container">
 
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-0005.JPG" style="height: 50vh; border-radius: 15px;">
+<!-- Swiper -->
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0005.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0080.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4163.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4490.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-5535.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-6285.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-7976.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-8784.JPG" style="height: 60vh; border-radius: 15px;"></div>
     </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-0080.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-4163.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">4 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-4490.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">5 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-5535.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">6 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-6285.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">7 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-7976.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">8 / 8</div>
-        <img src="/Slideshow-Photos/Tezza-8784.JPG" style="height: 50vh; border-radius: 15px;">
-    </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+<script type="module">
     AOS.init();
 
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3000); // Change image every 3 seconds
-    }
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+        var swiper = new Swiper('.swiper', {
+          slidesPerView: 1,
+          grabCursor: true,
+          centeredSlides: true,
+          loop: true,
+          grabCursor: true,
+          effect: 'flip',
+          // effect: 'coverflowEffect',
+          // coverflowEffect: {
+          //   rotate: 10,
+          //   stretch: 0,
+          //   depth: 10,
+          //   modifier: 1,
+          //   slideShadows: true,
+          // },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
 </script>
