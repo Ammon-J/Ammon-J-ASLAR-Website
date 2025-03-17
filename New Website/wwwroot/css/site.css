@@ -54,14 +54,7 @@ body {
 
 /*For desktop*/
 @media only screen and (min-width: 1400px) {
-    /*body {
-        background-image: url('/Logo/AmazonPackage.JPG');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-size: 100% 100%;
-        backdrop-filter: blur(5px);
-    }*/
+
 }
 
 /*For tablets*/
