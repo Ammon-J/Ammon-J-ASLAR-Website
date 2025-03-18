@@ -51,6 +51,69 @@ h4 {
         font-size: 1.2em;
         width: 25vw;
     }
+
+    .container-2 {
+        width: 100%;
+        margin-top: 10vh;
+    }
+
+    .container-2-header {
+        width: 100%;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .container-2-content {
+
+    }
+
+    .container-3 {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.55);
+        width: 100%; 
+        text-align: center;
+    }
+
+    .container-3-header {
+        text-align: center;
+        font-weight: 200;
+        font-size: 2.8em;
+    }
+
+    .testimony-1 {
+        width: 30vw;
+        display: inline-block;
+    }
+
+    .testimony-1-photo {
+        width: 18vw;
+        margin-bottom: 5vh;
+    }
+
+    .testimony-1-text {
+        text-align: center;
+        font-size: 1.1em;
+        width: 16vw;
+        font-weight: 100;
+        margin-left: 7vw;
+    }
+
+    .testimony-2 {
+        margin-left: 25vw;
+        width: 40vw;
+        display: inline-block;
+    }
+
+    .testimony-2-photo {
+        width: 17vw;
+    }
+
+    .testimony-2-text {
+        text-align: center;
+        font-size: 1.1em;
+        width: 35%;
+        font-weight: 100;
+    }
 }
 
 .swiper {
