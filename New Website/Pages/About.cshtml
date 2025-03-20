@@ -15,14 +15,14 @@
 <!-- Swiper -->
 <div class="swiper">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0005.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0080.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4163.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4490.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-5535.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-6285.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-7976.JPG" style="height: 60vh; border-radius: 15px;"></div>
-        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-8784.JPG" style="height: 60vh; border-radius: 15px;"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0005.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-0080.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4163.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-4490.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-5535.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-6285.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-7976.JPG" class="slide-photo"></div>
+        <div class="swiper-slide"><img src="/Slideshow-Photos/Tezza-8784.JPG" class="slide-photo"></div>
     </div>
     
     <!-- Add Pagination -->
@@ -106,6 +106,7 @@
         var swiper = new Swiper('.swiper', {
           slidesPerView: 1,
           grabCursor: true,
+          autoHeight: true, //enable auto height
           centeredSlides: true,
           loop: true,
           grabCursor: true,
@@ -113,7 +114,7 @@
           coverflowEffect: {
             rotate: 10,
             stretch: 0,
-            depth: 10,
+            depth: 100,
             modifier: 1,
             slideShadows: true,
           },
