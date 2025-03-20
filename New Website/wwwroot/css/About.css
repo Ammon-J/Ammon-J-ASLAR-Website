@@ -71,20 +71,24 @@ h4 {
         background-color: rgb(0, 0, 0);
         background-color: rgba(0,0,0, 0.55);
         width: 100%;
+        height: fit-content;
         text-align: center;
     }
 
     .container-3-header {
-        grid-area: header;
+        padding-top: 8vh;
         text-align: center;
         font-weight: 200;
         font-size: 2.8em;
+        margin-bottom: 10vh;
     }
 
     .testimony-container {
         display: grid;
-        grid-template-columns: auto auto auto;
-        column-gap: 35%;
+        grid-template-columns: auto auto;
+        column-gap: 25%;
+        row-gap: 15%;
+        padding-bottom: 20vh;
     }
 
     .testimony-1 {
@@ -106,7 +110,6 @@ h4 {
     }
 
     .testimony-2 {
-        /*margin-left: 35vw;*/
         width: 20vw;
     }
 
@@ -117,6 +120,41 @@ h4 {
     }
 
     .testimony-2-text {
+        text-align: center;
+        font-size: 1.1em;
+        width: 100%;
+        font-weight: 100;
+    }
+
+    .testimony-3 {
+        width: 20vw;
+        margin-left: 12vw;
+    }
+
+    .testimony-3-photo {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 3.5vh;
+    }
+
+    .testimony-3-text {
+        text-align: center;
+        font-size: 1.1em;
+        width: 100%;
+        font-weight: 100;
+    }
+
+    .testimony-4 {
+        width: 20vw;
+    }
+
+    .testimony-4-photo {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 3.5vh;
+    }
+
+    .testimony-4-text {
         text-align: center;
         font-size: 1.1em;
         width: 100%;
