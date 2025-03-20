@@ -172,45 +172,215 @@ h4 {
         width: 100%;
         font-weight: 100;
     }
-}
 
-.swiper {
-    text-align: center;
-    width: 100%;
-    padding-bottom: 50px;
-    max-height: 65vh;
-    margin-bottom: 20vh;
-}
+    .swiper {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 50px;
+        max-height: 65vh;
+        margin-bottom: 20vh;
+    }
 
-.swiper-slide {
-    background-position: center;
-    width: fit-content;
-    border-radius: 15px;
-}
+    .swiper-slide {
+        background-position: center;
+        width: fit-content;
+        border-radius: 15px;
+    }
 
-.swiper .swiper-slide {
-    width: fit-content;
-    height: auto;
-    line-height: 300px;
-}
+    .slide-photo {
+        height: 60vh;
+        border-radius: 15px;
+    }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
+    .swiper .swiper-slide {
+        width: fit-content;
+        height: auto;
+        line-height: 300px;
     }
 }
-}
+
 
 /*For mobile phones and tablets*/
-@media only screen and (max-width: 950px) {
-    .leftside-requirements {
+@media only screen and (max-width: 1025px) {
+    .swiper {
+        text-align: center;
         width: 100%;
-        margin-bottom: 10vh;
-        margin-top: 0%;
+        padding-bottom: 50px;
+        margin-bottom: 2vh;
     }
-    .rightside-requirements {
+
+    .swiper-slide {
+        background-position: center;
+        width: fit-content;
+        border-radius: 15px;
+    }
+
+    .swiper .swiper-slide {
+        width: fit-content;
+        height: fit-content;
+        max-height: 500px;
+        line-height: 300px;
+    }
+
+    .slide-photo {
+        height: 30vh;
+        border-radius: 15px;
+    }
+
+    .container-1 {
+        margin-top: 8vh;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.55);
+        height: fit-content;
         width: 100%;
-        margin: 0%;
+        color: azure;
+        display: block;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+
+    .container-1-header {
+        padding-top: 0.5em;
+        font-weight: 100;
+        text-align: center;
+        font-size: 2.8em;
+    }
+
+    .container-1-content {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-top: 4vh;
+        padding-bottom:5%;
+    }
+
+    .container-1-text {
+        margin-left: 24vw;
+        font-weight: 100;
+        font-size: 1.2em;
+        width: 50vw;
+    }
+
+    .container-2 {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.3);
+        width: 100%;
+        align-content: center;
+    }
+
+    .container-2-header {
+        width: 100%;
+        text-align: center;
+        font-weight: 200;
+        font-size: 2.5em;
+        padding-top: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    .container-2-content {
+        font-weight: 200;
+        text-align: center;
+        font-size: 1.3em;
+        color: azure;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 8vh;
+    }
+
+    .container-3 {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0,0,0, 0.55);
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .container-3-header {
+        padding-top: 8vh;
+        text-align: center;
+        font-weight: 200;
+        font-size: 3em;
+        margin-bottom: 12vh;
+    }
+
+    .testimony-container {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 25%;
+        row-gap: 5%;
+        padding-bottom: 60%;
+        height: fit-content;
+    }
+
+    .testimony-1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .testimony-1-photo {
+        width: 100%;
+        margin-bottom: 5vh;
+        border-radius: 15px;
+    }
+
+    .testimony-1-text {
+        text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: 100;
+    }
+
+    .testimony-2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .testimony-2-photo {
+        width: 100%;
+        margin-bottom: 3.5vh;
+        border-radius: 15px;
+    }
+
+    .testimony-2-text {
+        text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: 100;
+    }
+
+    .testimony-3 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .testimony-3-photo {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 3.5vh;
+    }
+
+    .testimony-3-text {
+        text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: 100;
+    }
+
+    .testimony-4 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .testimony-4-photo {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 3.5vh;
+    }
+
+    .testimony-4-text {
+        text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: 100;
     }
 }
