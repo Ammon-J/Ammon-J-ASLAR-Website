@@ -3,7 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: azure;
-    wid
 }
 
 .main-header {
@@ -212,14 +211,11 @@ h4 {
     .swiper-slide {
         background-position: center;
         width: fit-content;
-        border-radius: 15px;
     }
 
     .swiper .swiper-slide {
         width: fit-content;
         height: fit-content;
-        max-height: 500px;
-        line-height: 300px;
     }
 
     .slide-photo {
