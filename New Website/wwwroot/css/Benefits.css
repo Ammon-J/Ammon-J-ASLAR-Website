@@ -19,35 +19,29 @@ body {
 
     .container-1 {
         text-align: center;
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        margin-left: 3.5%;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 
-    .benefits-1 {
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-        backdrop-filter: blur(10px);
+    .benefits-container {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
         border: 1px solid rgba(255, 255, 255, 0.18);
         backdrop-filter: blur(200px);
-        text-align: center;
-        width: 80%;
-        border-radius: 15px;
-        padding: 5%;
-    }
-
-    .benefits-2 {
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        backdrop-filter: blur(200px);
-        text-align: center;
-        width: 80%;
         border-radius: 15px;
         text-align: center;
         width: 80%;
         padding: 5%;
-        border-radius: 15px;
+    }
+
+    .benefit-text {
+        font-size: 0.9em;
+    }
+
+    h4 {
+        font-weight: 100;
+        font-size: 1.4em;
     }
 }
     
