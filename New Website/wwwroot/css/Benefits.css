@@ -1,15 +1,53 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 body {
-    
+    font-family: 'Roboto', sans-serif;
+    color: azure;
 }
 
-h1 {
-    color: azure;
-    font-weight: 200;
-    margin-bottom: 10vh;
-    padding-top: 0.4em;
-    text-align: center;
-    font-size: 4em;
+/*For desktop*/
+@media only screen and (min-width: 1000px) { /*Add benefits on a 2 x 'X' table. blur backgrounds and round corners*/
+    h1 {
+        color: azure;
+        font-weight: 200;
+        margin-bottom: 10vh;
+        padding-top: 0.4em;
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .container-1 {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .benefits-1 {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(200px);
+        text-align: center;
+        width: 80%;
+        border-radius: 15px;
+        padding: 5%;
+    }
+
+    .benefits-2 {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(200px);
+        text-align: center;
+        width: 80%;
+        border-radius: 15px;
+        text-align: center;
+        width: 80%;
+        padding: 5%;
+        border-radius: 15px;
+    }
 }
+    
