@@ -9,12 +9,11 @@ body {
 /*For desktop*/
 @media only screen and (min-width: 1000px) { /*Add benefits on a 2 x 'X' table. blur backgrounds and round corners*/
     h1 {
-        color: azure;
-        font-weight: 200;
+        font-weight: 100;
         margin-bottom: 10%;
-        padding-top: 4%;
+        padding-top: 2%;
         text-align: center;
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .container-1 {
