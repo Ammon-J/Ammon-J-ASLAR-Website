@@ -49,7 +49,7 @@
         @{
             if (ViewData["Title"] == "ASLAR Logistics") {
                 <div class="container" style="max-width: 100% !important; padding: 0% !important;">
-                    <main role="main" style="margin: 0%; width:100%" class="pb-3">
+                    <main role="main" style="margin: 0%; width:100%" class="">
                         @RenderBody()
 
                         <footer class="main-footer">
@@ -71,7 +71,7 @@
                                                 <a asp-page="/About">About</a>
                                             </li>
                                             <li class="mb-1">
-                                                <a a asp-page="#!">Testimonies</a>
+                                                <a a asp-page="/Benefits">Benefits</a>
                                             </li>
                                             <li>
                                                 <a asp-page="/FAQ" >FAQ</a>
@@ -98,7 +98,7 @@
 
             else {
                     <div class="container" style="max-width: 100% !important; padding: 0% !important;">
-                        <main role="main" style="margin: 0%; width:100%" class="pb-3">
+                        <main role="main" style="margin: 0%; width:100%" class="">
                             @RenderBody()
 
                             <footer class="main-footer">
@@ -120,7 +120,7 @@
                                                     <a asp-page="/About">About</a>
                                                 </li>
                                                 <li class="mb-1">
-                                                    <a a asp-page="#!">Testimonies</a>
+                                                    <a a asp-page="/Benefits">Benefits</a>
                                                 </li>
                                                 <li>
                                                     <a asp-page="/FAQ">FAQ</a>
