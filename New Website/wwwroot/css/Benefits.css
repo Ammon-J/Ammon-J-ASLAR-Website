@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: azure;
+    height: fit-content;
 }
 
 /*For desktop*/
@@ -44,7 +45,7 @@ body {
 
     .benefit-text {
         font-size: 1em;
-        margin-top: 2%;
+        padding-top: 3%;
     }
 
     .insurance-text {
@@ -60,6 +61,37 @@ body {
         font-weight: 100;
         font-size: 5.5vw;
         margin-bottom: 10%;
+    }
+
+    .container-1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 40%;
+        display: grid;
+        row-gap: 5%;
+        grid-template-columns: auto auto;
+    }
+
+    .benefits-container {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(200px);
+        border-radius: 15px;
+        text-align: center;
+        width: 80%;
+        height: 100%;
+        padding: 5%;
+    }
+
+    h4 {
+        font-weight: 100;
+        font-size: 1.2em;
+    }
+
+    .benefit-text {
+        font-size: 0.8em;
+        padding-top: 2%;
     }
 }
     
