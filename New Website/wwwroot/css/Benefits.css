@@ -11,8 +11,8 @@ body {
     h1 {
         color: azure;
         font-weight: 200;
-        margin-bottom: 10vh;
-        padding-top: 0.4em;
+        margin-bottom: 10%;
+        padding-top: 4%;
         text-align: center;
         font-size: 4em;
     }
@@ -23,12 +23,12 @@ body {
         margin-left: 3.5%;
         margin-bottom: 10%;
         display: grid;
-        row-gap: 5%;
+        row-gap: 5%;    
         grid-template-columns: auto auto auto;
     }
 
     .benefits-container {
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
         border: 1px solid rgba(255, 255, 255, 0.18);
         backdrop-filter: blur(200px);
         border-radius: 15px;
