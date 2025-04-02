@@ -1,19 +1,30 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    font-family: "Open Sans", serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-header {
     color: azure;
+    padding-top: 2%;
     text-align: center;
-    padding-top: 0.5em;
-    margin-bottom: 8vh;
-    font-size: 3em;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 3.5em;
+    margin-bottom: 5%;
 }
 
 .accordion {
     width: 60%;
     margin-left: 20%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .main-header {
+        color: azure;
+        padding-top: 4%;
+        text-align: center;
+        font-weight: 100;
+        font-size: 6vw;
+        margin-bottom: 10%;
+    }
 }
