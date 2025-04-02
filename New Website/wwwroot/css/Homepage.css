@@ -57,7 +57,7 @@ body {
     }
 
     .content-grid {
-        width: 100%;
+        width: 95%;
         margin-left: 5%;
         display: grid;
         column-gap: 20%;
@@ -87,8 +87,9 @@ body {
     .requirements-container-right {
         font-weight: 100;
         font-size: 1.1em;
-        width: 75%;
+        width: 80%;
         padding-bottom: 0.5em;
+        margin-left: 10%;
     }
 
     .requirements-header-right {
