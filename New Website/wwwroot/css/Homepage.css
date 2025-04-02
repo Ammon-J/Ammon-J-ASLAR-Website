@@ -12,7 +12,6 @@ body {
 @media only screen and (min-width: 1000px) {
     .main-header {
         font-weight: 100;
-        margin-bottom: 10%;
         padding-top: 2%;
         text-align: center;
         font-size: 3.5em;
@@ -34,7 +33,7 @@ body {
         width: 100%;
         height: auto;
         align-content: center;
-        margin-top: 35vh;
+        margin-top: 10%;
         margin-bottom: 30vh;
     }
 
@@ -57,7 +56,16 @@ body {
         padding-top: 5vh;
     }
 
+    .content-grid {
+        width: 100%;
+        margin-left: 5%;
+        display: grid;
+        column-gap: 20%;
+        grid-template-columns: auto auto;
+    }
+
     .container-2-header {
+        width: 100%;
         padding-top: 0.5em;
         font-weight: 100;
         text-align: center;
@@ -65,14 +73,10 @@ body {
     }
 
     .requirements-container-left {
-        align-content: center;
         font-weight: 100;
         font-size: 1.1em;
-        width: 25vw;
-        height: auto;
+        width: 80%;
         padding-bottom: 0.5em;
-        margin-left: 8vw;
-        display:inline-block;
     }
 
     .requirements-header-left {
@@ -81,16 +85,10 @@ body {
     }
 
     .requirements-container-right {
-        align-content: center;
         font-weight: 100;
         font-size: 1.1em;
-        width: 25vw;
-        height: auto;
+        width: 75%;
         padding-bottom: 0.5em;
-        margin-left: 4vw;
-        display: inline-block;
-        margin-left: 32vw;
-        padding-top: 3vh;
     }
 
     .requirements-header-right {
@@ -139,7 +137,7 @@ body {
     .container1 {
         width: 100%;
         height: auto;
-        margin-bottom: 20vh;
+        margin-bottom: 10%;
     }
 
     .paragraph1 {
@@ -172,7 +170,7 @@ body {
     .requirements-container-left {
         font-weight: 100;
         font-size: 1.1em;
-        width: 90%;
+        width: 85%;
         height: auto;
         padding-bottom: 10vh;
         margin-left: 8vw;
@@ -187,7 +185,7 @@ body {
         align-content: center;
         font-weight: 100;
         font-size: 1.1em;
-        width: 90%; /*Make width 90% because of styling*/
+        width: 85%;
         height: auto;
         padding-bottom: 0.5em;
         margin-left: 8vw;
