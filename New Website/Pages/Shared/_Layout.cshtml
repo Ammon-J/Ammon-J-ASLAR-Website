@@ -45,9 +45,57 @@
 
     </header>
 
-    <div class="main-body">
-        @{
-            if (ViewData["Title"] == "ASLAR Logistics") {
+    @{
+        if (ViewData["Title"] == "ASLAR Logistics") {
+            <div class="container" style="max-width: 100% !important; padding: 0% !important;">
+                <main role="main" style="margin: 0%; width:100%" class="">
+                    @RenderBody()
+
+                    <footer class="main-footer">
+                        <div class="container p-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <h5 class="mb-3" style="letter-spacing: 2px;">Contact</h5>
+                                    <p><i class="bi bi-house "></i> <a target="_blank" href="https://tinyurl.com/3pr3ycps">3711 142nd Ave E, Sumner, WA 98390</a></p>
+                                    <p><i class="bi bi-envelope "></i> <a href="mailto:recruiting@aslarlogistics.com">recruiting@aslarlogistics.com</a></p>
+                                    <p><i class="bi bi-phone mr-3"> <a href="tel:+12533652902">+1 (253)-365-2902</a></i></p>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mb-4">
+                                    <h5 class="mb-3" style="letter-spacing: 2px">Links</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-1">
+                                            <a asp-page="/Index" >Home</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <a asp-page="/About">About</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <a a asp-page="/Benefits">Benefits</a>
+                                        </li>
+                                        <li>
+                                            <a asp-page="/FAQ" >FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mb-4">
+                                    <h5 class="mb-1" style="letter-spacing: 2px; color: azure;">Office Hours</h5>
+                                    <table class="table" style="color: azure; border-color: azure;">
+                                        <tbody>
+                                            <tr>
+                                                <td>Mon - Fri:</td>
+                                                <td>8am - 4pm</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+        }
+
+        else {
                 <div class="container" style="max-width: 100% !important; padding: 0% !important;">
                     <main role="main" style="margin: 0%; width:100%" class="">
                         @RenderBody()
@@ -65,7 +113,7 @@
                                         <h5 class="mb-3" style="letter-spacing: 2px">Links</h5>
                                         <ul class="list-unstyled mb-0">
                                             <li class="mb-1">
-                                                <a asp-page="/Index" >Home</a>
+                                                <a asp-page="/Index">Home</a>
                                             </li>
                                             <li class="mb-1">
                                                 <a asp-page="/About">About</a>
@@ -74,7 +122,7 @@
                                                 <a a asp-page="/Benefits">Benefits</a>
                                             </li>
                                             <li>
-                                                <a asp-page="/FAQ" >FAQ</a>
+                                                <a asp-page="/FAQ">FAQ</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -94,58 +142,8 @@
                         </footer>
                     </main>
                 </div>
-            }
-
-            else {
-                    <div class="container" style="max-width: 100% !important; padding: 0% !important;">
-                        <main role="main" style="margin: 0%; width:100%" class="">
-                            @RenderBody()
-
-                            <footer class="main-footer">
-                                <div class="container p-4">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-12 mb-4">
-                                            <h5 class="mb-3" style="letter-spacing: 2px;">Contact</h5>
-                                            <p><i class="bi bi-house "></i> <a target="_blank" href="https://tinyurl.com/3pr3ycps">3711 142nd Ave E, Sumner, WA 98390</a></p>
-                                            <p><i class="bi bi-envelope "></i> <a href="mailto:recruiting@aslarlogistics.com">recruiting@aslarlogistics.com</a></p>
-                                            <p><i class="bi bi-phone mr-3"> <a href="tel:+12533652902">+1 (253)-365-2902</a></i></p>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 mb-4">
-                                            <h5 class="mb-3" style="letter-spacing: 2px">Links</h5>
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="mb-1">
-                                                    <a asp-page="/Index">Home</a>
-                                                </li>
-                                                <li class="mb-1">
-                                                    <a asp-page="/About">About</a>
-                                                </li>
-                                                <li class="mb-1">
-                                                    <a a asp-page="/Benefits">Benefits</a>
-                                                </li>
-                                                <li>
-                                                    <a asp-page="/FAQ">FAQ</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 mb-4">
-                                            <h5 class="mb-1" style="letter-spacing: 2px; color: azure;">Office Hours</h5>
-                                            <table class="table" style="color: azure; border-color: azure;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Mon - Fri:</td>
-                                                        <td>8am - 4pm</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </footer>
-                        </main>
-                    </div>
-            }
         }
-    </div>
+    }
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

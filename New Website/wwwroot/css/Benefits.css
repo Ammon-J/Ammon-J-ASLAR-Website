@@ -8,7 +8,7 @@ body {
 }
 
 /*For desktop*/
-@media only screen and (min-width: 1000px) { /*Add benefits on a 2 x 'X' table. blur backgrounds and round corners*/
+@media only screen and (min-width: 1000px) {
     h1 {
         font-weight: 100;
         margin-bottom: 10%;
@@ -47,10 +47,6 @@ body {
     .benefit-text {
         font-size: 1em;
         padding-top: 3%;
-    }
-
-    .insurance-text {
-        
     }
 }
 

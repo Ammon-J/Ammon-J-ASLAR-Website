@@ -5,7 +5,7 @@ body {
     color: azure;
 }
 
-
+/*Only have one styling for attributes that use the same styling*/
 
 h4 {
     text-align: center;
