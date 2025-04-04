@@ -110,13 +110,13 @@ h4 {
         margin-left: 12vw;
     }
 
-    .testimony-1-photo {
+    .testimony-photo {
         width: 100%;
         margin-bottom: 5vh;
         border-radius: 15px;
     }
 
-    .testimony-1-text {
+    .testimony-text {
         text-align: center;
         font-size: 1.1em;
         width: 100%;
@@ -127,52 +127,13 @@ h4 {
         width: 20vw;
     }
 
-    .testimony-2-photo {
-        width: 100%;
-        margin-bottom: 3.5vh;
-        border-radius: 15px;
-    }
-
-    .testimony-2-text {
-        text-align: center;
-        font-size: 1.1em;
-        width: 100%;
-        font-weight: 100;
-    }
-
     .testimony-3 {
         width: 20vw;
         margin-left: 12vw;
     }
 
-    .testimony-3-photo {
-        width: 100%;
-        border-radius: 15px;
-        margin-bottom: 3.5vh;
-    }
-
-    .testimony-3-text {
-        text-align: center;
-        font-size: 1.1em;
-        width: 100%;
-        font-weight: 100;
-    }
-
     .testimony-4 {
         width: 20vw;
-    }
-
-    .testimony-4-photo {
-        width: 100%;
-        border-radius: 15px;
-        margin-bottom: 3.5vh;
-    }
-
-    .testimony-4-text {
-        text-align: center;
-        font-size: 1.1em;
-        width: 100%;
-        font-weight: 100;
     }
 
     .swiper {
@@ -323,13 +284,13 @@ h4 {
         margin-left: 15%;
     }
 
-    .testimony-1-photo {
+    .testimony-photo {
         width: 70%;
         margin-bottom: 5vh;
         border-radius: 15px;
     }
 
-    .testimony-1-text {
+    .testimony-text {
         text-align: center;
         font-size: 1.3em;
         width: 100%;
@@ -341,52 +302,13 @@ h4 {
         margin-left: 15%;
     }
 
-    .testimony-2-photo {
-        width: 70%;
-        margin-bottom: 3.5vh;
-        border-radius: 15px;
-    }
-
-    .testimony-2-text {
-        text-align: center;
-        font-size: 1.3em;
-        width: 100%;
-        font-weight: 100;
-    }
-
     .testimony-3 {
         width: 70%;
         margin-left: 15%;
     }
 
-    .testimony-3-photo {
-        width: 70%;
-        border-radius: 15px;
-        margin-bottom: 3.5vh;
-    }
-
-    .testimony-3-text {
-        text-align: center;
-        font-size: 1.3em;
-        width: 100%;
-        font-weight: 100;
-    }
-
     .testimony-4 {
         width: 70%;
         margin-left: 15%;
-    }
-
-    .testimony-4-photo {
-        width: 70%;
-        border-radius: 15px;
-        margin-bottom: 3.5vh;
-    }
-
-    .testimony-4-text {
-        text-align: center;
-        font-size: 1.3em;
-        width: 100%;
-        font-weight: 100;
     }
 }
