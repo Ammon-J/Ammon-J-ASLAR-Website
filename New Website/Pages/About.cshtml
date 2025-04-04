@@ -138,7 +138,7 @@
 
     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
     var swiper = new Swiper('.swiper', {
-        slidesPerView: 'auto',
+        slidesPerView: 1,
         centeredSlides: true,
         spaceBetween: 50,
         grabCursor: true,
@@ -148,8 +148,8 @@
         effect: 'coverflow',
         coverflowEffect: {
         rotate: 0,
-        stretch: 50,
-        depth: 120,
+        stretch: 0,
+        depth: 0,
         modifier: 1,
         },
         autoplay: {
