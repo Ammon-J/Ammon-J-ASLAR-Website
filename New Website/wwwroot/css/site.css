@@ -19,13 +19,11 @@ body {
     margin-bottom: 0px;
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-optical-sizing: auto;
     margin: 0%;
     background-image: url('/Logo/AmazonPackage.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: 100% 100%;
     backdrop-filter: blur(4px);
 }
 
