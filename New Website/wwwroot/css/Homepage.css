@@ -201,7 +201,8 @@ body {
         display: block;
         margin-top: 15vh;
         margin-bottom: 15vh;
-        width: 80vw;
+        margin-left: 10%;
+        width: 80%;
         max-width: 90%;
         height: auto;
         border-radius: 15px;
