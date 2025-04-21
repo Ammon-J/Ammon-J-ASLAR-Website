@@ -57,9 +57,7 @@ body {
         background-image: url('/Logo/AmazonPackageTablet.JPG');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
+        background-position: center;
         backdrop-filter: blur(5px);
     }
 }
@@ -70,9 +68,7 @@ body {
         background-image: url('/Logo/AmazonPackageMoble.JPG');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
+        background-position: center;
         backdrop-filter: blur(5px);
     }
 }
@@ -83,9 +79,7 @@ body {
         background-image: url('/Logo/AmazonPackageMoble.JPG');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
+        background-position: center;
         backdrop-filter: blur(5px);
     }
 }
